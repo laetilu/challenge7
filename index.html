@@ -10,6 +10,7 @@
     <script src="js/bootstrap.js"></script>
     <script src="js/unslider-min.js"></script>
 
+
     <link href="css/bootstrap.css" type="text/css" rel="stylesheet">
     <link href="css/unslider.css" type="text/css" rel="stylesheet">
     <link href="css/unslider-dots.css" type="text/css" rel="stylesheet">
@@ -36,9 +37,9 @@
       <img  class="imgcircle center-block" src="/img/circle.png" alt="">
     </header>
 
-    <div class="container-fluid">
 
-        <div class="row rownav">
+
+        <div class="row rownav navbar-wrapper ">
           <div class="col-md-6">
             <div class="navbar-header">
               <a class="navbar-brand" href="#">Flatfy</a>
@@ -361,30 +362,55 @@
 
         <!-- <footer> -->
             <div class="row rowfooter">
-                  <div class="col-md-5 col-md-offset-1">
+                  <div class="col-md-7 blocgris">
+                        <div >
 
-                        <div class="row blocgris">
-                          <div class="col-md-">
                               <h4 class="bold">Follow Me!</h4>
-                              <div class="linegris">
-                                <p>Lorem ipsum dolor sit amet<br>Lorem ipsum dolor sit amet<br>Lorem ipsum </p>
-                              </div>
-                              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</p>
-                          </div>
-                        </div>
-                  <div class="col-md-5 col-md-offset-1">
-                        <div class="col-md-4 blocbleu">
-                            <h4 class="bold">Follow Me!</h4>
-                            <p>Lorem ipsum dolor sit amet<br>Lorem ipsum dolor sit amet<br>Lorem ipsum<br>Lorem ipsum<br>Lorem ipsum</p>
-                        </div>
-                      </div>
-                    </div>
-                </div>
+                              <p>Vuoi ricevere news su altri template?<br>
+                              Visita Andrea Galanti.it e vedrai tutte le news riguardanti nuovi Theme! <br>Go to: andreagalanti.it<br>
 
-
+                              Flatfy Theme by Andrea Galanti is licensed to the public <br>under
+                              the Creative Commons Attribution 3.0 License - NOT COMMERCIAL.
+                              </p>
+                        </div>
                   </div>
-            </div>
+
+                  <div class="col-md-5 blocbleu">
+                    <div>
+                      <h4 class="footer-title">Flatfy Theme</h4>
+
+                      <p>12 Column Grid Bootstrap<br>
+                      Form Contact<br>
+                      Drag Gallery<br>
+                      Full Responsive<br>
+                      Lorem Ipsum<br>
+                      </p>
+                      Go to:andreagalanti.it
+                    </div>
+                  </div>
+
+
+                </div>
         <!-- </footer> -->
 
-  </div>   <!-- #container   -->
+
+<footer>
+  <script src="js/stickUp.min.js"></script>
+
+  <script type="text/javascript">
+    //initializing jQuery
+    jQuery(function($) {
+      $(document).ready( function() {
+        //enabling stickUp on the '.navbar-wrapper' class
+        $('.navbar-wrapper').stickUp({
+          //enabling marginTop with the 'auto' setting
+          marginTop: 'auto'
+
+        });
+    });
+  });
+
+  </script>
+</footer>
+
 </body>
